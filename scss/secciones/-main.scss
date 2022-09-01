@@ -1,0 +1,67 @@
+.main{
+    grid-area: main;
+    .banner_SAAS{
+        img{
+            display: flex;
+            width: 100%;
+            height: 375px;
+
+        }
+        h2{
+            display: inline-flex;
+            font-size: 5rem;
+            position: absolute;
+            bottom: 34%;
+            left: 40px;
+            color: #4E0909;
+
+        }
+
+    }
+    .cintillo_SAAS{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #4E0909;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: lighter;
+        font-family: 'Roboto', sans-serif;
+        animation-name: cintillo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+
+    }
+    .gridVideos_SAAS{
+        max-height: 100%;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-items: center;
+        justify-content: space-around;
+        .servicio_SAAS{
+            iframe{
+                width: 300px;
+            }
+            h2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                font-size: 21px;
+                font-weight: bold;
+                background: #D0CECE;
+                color: #4E0909;
+                text-align: center;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                margin-bottom: 10px;
+
+            }
+        }
+    }
+}
+      

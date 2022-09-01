@@ -1,0 +1,39 @@
+.grid-container{
+    .header{
+        grid-area: header;
+        background-color: #FFB2C2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        .navbar{
+            ul{
+                li{
+                    a{
+                        color: #4E0909;
+                        font-size: 17px;
+                        font-weight: bolder;
+                        &:hover{
+                              color: #FFB2C2;
+                            }
+                        }
+                    }
+               
+                
+
+            }
+
+        }
+            .logo-header{
+              width: 100px;
+              &:hover{
+                transform: rotate(340deg);
+
+            }
+
+        }
+      
+    }
+}
+    

@@ -1,0 +1,78 @@
+.grid-container .header {
+  grid-area: header;
+  background-color: #FFB2C2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
+  .grid-container .header .navbar ul li a {
+    color: #4E0909;
+    font-size: 17px;
+    font-weight: bolder; }
+    .grid-container .header .navbar ul li a:hover {
+      color: #FFB2C2; }
+  .grid-container .header .logo-header {
+    width: 100px; }
+    .grid-container .header .logo-header:hover {
+      transform: rotate(340deg); }
+
+.main {
+  grid-area: main; }
+  .main .banner_SAAS img {
+    display: flex;
+    width: 100%;
+    height: 375px; }
+  .main .banner_SAAS h2 {
+    display: inline-flex;
+    font-size: 5rem;
+    position: absolute;
+    bottom: 34%;
+    left: 40px;
+    color: #4E0909; }
+  .main .cintillo_SAAS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #4E0909;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    animation-name: cintillo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
+  .main .gridVideos_SAAS {
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-items: center;
+    justify-content: space-around; }
+    .main .gridVideos_SAAS .servicio_SAAS iframe {
+      width: 300px; }
+    .main .gridVideos_SAAS .servicio_SAAS h2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 21px;
+      font-weight: bold;
+      background: #D0CECE;
+      color: #4E0909;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 10px; }
+
+.footer {
+  grid-area: footer;
+  background: #ffb2c2;
+  background: linear-gradient(180deg, #ffb2c2 0%, #791127 100%);
+  width: 100%;
+  text-align: center;
+  padding: .5rem 2rem;
+  font-size: 9px; }
